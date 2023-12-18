@@ -5,6 +5,7 @@ const router = express.Router();
 
 const passport = require('passport');
 const authenticate = require('../authenticate');
+const cors = require('./cors');
 
 
 //GET User listing but check if user is admin, if admin display user listing. 
